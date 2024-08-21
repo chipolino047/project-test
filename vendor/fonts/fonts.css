@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "SFPro";
+    src:
+        url(../SFProDisplay-Medium.woff2) format("woff2"),
+        url(../SFProDisplay-Medium.woff) format("woff");
+    font-weight: 500;
+}

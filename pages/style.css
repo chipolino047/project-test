@@ -1,26 +1,100 @@
 @import url(../vendor/normalize.css);
-.header {
+@import url(../vendor/fonts/fonts.css);
+.header__card {
     max-width: 808px;
     height: 50.5px;
     margin: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .page {
-    max-width: 808px;
-    min-width: 808px;
-}
-
-.header__button {
+    max-width: 1920px;
     display: flex;
-    flex-direction: row ;
+    flex-direction: column;
+    margin: 0 auto;
+    background: linear-gradient(#00C6FF 100%, #0072FF 100%);
 }
 
-.header__img {
+.header__card_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 169.29px;
+}
+
+.header__card_img {
     width: 15.5px;
     height: 5.89px;
+    margin: 2.05px 6.73px 2.05px 0;
+}
+
+.header__card_button-menu {
+    color: #A5A2AC;
+    background-color: white;
+    border: none;
+    font-size: 6.73px;
+    max-width: 22px;
+    height: 10px;
+    text-align: center;
+    padding: 0;
+}
+
+.header__card_button-container {
+    display: flex;
+    align-items: center;
+    width: 43.88px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.header__card_button-appartament {
+    background-color: transparent;
+    width: 105.21px;
+    height: 23.57px;
+    border: 1px solid black;
+    padding: 0;
+    border-radius: 50px;
+    font-size: 6.73px;
+    font-family: 'SFPro', 'Arial', sans-serif; 
+    font-style: normal;
+    font-weight: 500;
+    line-height: 10.1px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.header__card-call {
+    min-width: 147.22px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__card-phone_text {
+    max-width: 58px;
+    font-family: 'SFPro', 'Arial', sans-serif;
+    font-size: 6.73px;
+    line-height: 10.1px;
+    font-weight: 500;
+    color: #A5A2AC;
+}
+
+.header__card-phone_button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    font-size: 6.73px;
+    font-family: 'SFPro', 'Arial', sans-serif; 
+    font-style: normal;
+    font-weight: 500;
+    line-height: 10.1px;
+    box-sizing: border-box;
+    cursor: pointer;
 }
 
 
