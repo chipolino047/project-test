@@ -1,0 +1,36 @@
+@import url(../vendor/normalize.css);
+.header {
+    max-width: 808px;
+    height: 50.5px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page {
+    max-width: 808px;
+    min-width: 808px;
+}
+
+.header__button {
+    display: flex;
+    flex-direction: row ;
+}
+
+.header__img {
+    width: 15.5px;
+    height: 5.89px;
+}
+
+
+
+
+
+
+
+
+
+* {
+    outline: 1px red solid;
+}
