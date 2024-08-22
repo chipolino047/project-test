@@ -1,7 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 .header__card {
-    max-width: 808px;
+    width: 808px;
     height: 50.5px;
     margin: 0;
     display: flex;
@@ -32,7 +32,7 @@
 
 .header__card_button-menu {
     color: #A5A2AC;
-    background-color: white;
+    background-color: transparent;
     border: none;
     font-size: 6.73px;
     max-width: 22px;
@@ -95,6 +95,172 @@
     line-height: 10.1px;
     box-sizing: border-box;
     cursor: pointer;
+}
+
+.header {
+    margin: 50px 50px 132px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__paragraph {
+    color: #FFF;
+    font-size: 27px;
+    font-family: 'Jost', 'Arial', sans-serif; 
+    font-weight: 400;
+    line-height: 32.4px;
+    box-sizing: border-box;
+}
+
+.container-test {
+    max-width: 732px;
+    height: 331px;
+    margin: 0 80px 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-test__paragraph {
+    color: #FFF;
+    font-size: 70px;
+    font-family: 'Jost', 'Arial', sans-serif; 
+    font-weight: 600;
+    font-style: italic;
+    line-height: 84px;
+    margin: 0;
+    min-width: 732px;
+}
+
+.container-test__button {
+    width: 320px;
+    height: 93px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 60px;
+    background-color: #FFF;
+    font-size: 48px;
+    font-family: 'Jost', 'Arial', sans-serif; 
+    font-weight: 500;
+    line-height: 57.6px;
+    color: #004381;
+}
+
+.container {
+    max-width: 1920px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-website {
+    background-color: #FFF;
+    max-width: 808px;
+    height: 866px;
+    margin: 0 150px 0 0;
+    box-sizing: border-box;
+}
+
+.main-info {
+    max-width: 740.67px;
+    height: 252.5px;
+    margin: 0 auto;
+    background: url(../images/img.png) center center no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.main-info__img {
+    width: 740.67px;
+    height: 252.5px;
+    margin-bottom: 25.08px;
+}
+
+.main-info__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-info__container-paragraphs {
+    display: flex;
+    flex-direction: row;
+    width: 162.88px;
+    margin: 0;
+}
+
+.main-info__container-paragraphs_text {
+    font-family: 'Jost', 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 5.89px;
+    line-height: 7.66px;
+    color: #000;
+    margin: 0;
+}
+
+
+.main-info__container-paragraphs_line {
+    list-style: 1px solid #A5A2AC;
+    width: 8.42px;
+    height: 1px;
+    margin: auto 0;
+    background-color: #A5A2AC;
+}
+
+.main-info__container-paragraphs_margin {
+    margin-bottom: 6.73px;
+    justify-content: space-between;
+}
+
+.main-info__container-paragraphs_line_margin {
+    margin-right: 6.73px;
+}
+
+.main-info__container-paragraphs_text-sale {
+    font-family: 'Jost', 'Arial', sans-serif;
+    font-weight: 500;
+    font-size: 10.1px;
+    line-height: 16.16px;
+    color: #A5A2AC;
+    margin: 10.1px 0;
+    width: 289.11px;
+}
+
+.main-info__container_button-choose-appartament {
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    border-radius: 25.25px;
+    width: 159.92px;
+    height: 29.04px;
+    font-family: 'SFPro', 'Arial', sans-serif;
+    font-weight: 500;
+    font-size: 6.73px;
+    line-height: 10.1px;
+    align-items: center;
+    color: #FFF;
+}
+
+.main-info__info-button {
+    width: 289.11px;
+}
+
+.main-info__container_text {
+    max-width: 289.11px;
+}
+
+.main-info__header {
+    width: 353.5px;
+    font-family: 'SFPro', 'Arial', sans-serif;
+    font-size: 60.6px;
+    font-weight: 500;
+    line-height: 90.9px;
+    color: #000;
+    margin: 0;
+}
+
+.main-info__cards {
+    max-width: 740.67px;
 }
 
 
