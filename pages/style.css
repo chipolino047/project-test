@@ -266,8 +266,10 @@
 }
 
 .main-info__cards_container {
-    width: 289.11px;
+    width: 611.89px;
     height: 71.56px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .main-info__cards_line {
@@ -283,7 +285,25 @@
     font-size: 26.93px;
     font-weight: 500;
     line-height: 40.4px;
-    margin: 0;
+    margin: 26.93px 0 0 0;
+}
+
+.main-info__cards_card {
+    width: 289.11px;
+    height: 71.56px;
+}
+
+.main-info__cards_paragraph {
+    width: 268.91px;
+    height: 32px;
+    background-color: #D1CDDA;
+    Padding: 10.1px;
+    margin: 18px 0 0 0;
+    font-family: 'SFPro', 'Arial', sans-serif;
+    font-weight: 500;
+    font-size: 10.1px;
+    line-height: 16.16px;
+    color: #000;
 }
 
 
