@@ -14,7 +14,7 @@
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    background: linear-gradient(#00C6FF 100%, #0072FF 100%);
+    background: linear-gradient(#0072FF, #00C6FF);
 }
 
 .header__card_button {
